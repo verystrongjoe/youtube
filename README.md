@@ -19,26 +19,36 @@ set https_proxy=https://proxy_ip:proxyport
 
 2. Second, install every dependencies with the easy_install command.
 
-easy_install w3lib
+easy_install w3lib 
+
 easy_install queueLib
 
-easy_install enum34   
-easy_install ipaddress
+easy_install enum34
+
+easy_install ipaddress 
+
 easy_install pyasn1
 
 easy_install idna 
+
 easy_install cffi 
+
 easy_install characteristic 
+
 easy_install pyasn1-modules
 
-easy_install service-identity
+easy_install service-identity 
+
 easy_install cssselect
 
+pip install cffi-0.9.0-cp27-none-win_amd64.whl 
 
-pip install cffi-0.9.0-cp27-none-win_amd64.whl
-pip install cryptography-0.7.2-cp27-none-win_amd64.whl
-pip install pyOpenSSL-0.15.1-py2.py3-none-any.whl
+pip install cryptography-0.7.2-cp27-none-win_amd64.whl 
+
+pip install pyOpenSSL-0.15.1-py2.py3-none-any.whl 
+
 pip install Scrapy-1.0.3-py2-none-any.whl
+
 
 
 If you are using Anaconda IDE without installing the pure python, please add the registry like the following link.
